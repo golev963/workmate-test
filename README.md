@@ -14,10 +14,10 @@ pip install pytest pytest-cov
 
 ```bash
 # Один файл
-python main.py --files data/math_session.csv --report median-coffee
+python main.py --files data/math.csv --report median-coffee
 
 # Несколько файлов
-python main.py --files data/math_session.csv data/physics_session.csv --report median-coffee
+python main.py --files data/math.csv data/physics.csv --report median-coffee
 ```
 
 Пример вывода:
